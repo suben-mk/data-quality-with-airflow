@@ -27,9 +27,9 @@ audible_analytic | has row count between min 1 and max 2000000 | ✅ |
 column	| expectation | success / fial |
 ------- | ----------- | -------------- |
 timestamp | has not null values | ✅ |
-user_id | has 8 characters values | ✅ |
+user_id | has 8 characters and match in list [a-z0-9] characters| ✅ |
 country | has not null valuse | ✅ |
-book_id | has integer type or number 0-9 | ✅ |
+book_id | has integer type | ✅ |
 book_title | has not null values | ✅ |
 categories | has valuse to be in list | ✅ |
 categories | has not null values | ❌ |

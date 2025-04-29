@@ -51,12 +51,13 @@ data-quality-with-airflow/
 │   └── audible_data_for_analytic.db  # Data to chack for data quality
 │
 ├── logs/                             # โฟลเดอร์สำหรับเก็บ data logging บน Airflow
-├── plugins/                          # โฟลเดอร์สำหรับ application ต่างๆที่ต้องการรันบน Airflow ผ่าน Dockerfile
-│   ├── Dockerfile
-│   └── requirements.txt
 │
 ├── include/                          # โฟลเดอร์สำหรับเก็บไฟล์โค้ด python function เพิ่มเติมที่จะรันผ่าน Dags
 │   └── gx/                           # โฟลเดอร์สำหรับไฟล์ต่างๆของ Great Expectations เช่น ไฟล์ expectation suite, ผลลัพธ์ validation เป็นต้น
+│
+├── plugins/                          # โฟลเดอร์สำหรับ application ต่างๆที่ต้องการรันบน Airflow ผ่าน Dockerfile
+│   ├── Dockerfile
+│   └── requirements.txt
 │
 ├── .env                              # จัดการข้อมูลอยู่ในรูปตัวแปร ที่ต้องการเก็บเป็นความลับ
 └── docker-compose.yaml               # Docker container ที่จะรัน Service แบบทีละหลายตัวบน Airflow

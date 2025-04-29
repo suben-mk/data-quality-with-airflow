@@ -62,3 +62,9 @@ data-quality-with-airflow/
 ├── .env                              # จัดการข้อมูลอยู่ในรูปตัวแปร ที่ต้องการเก็บเป็นความลับ
 └── docker-compose.yaml               # Docker container ที่จะรัน Service แบบทีละหลายตัวบน Airflow
 ```
+
+## Workflow
+_**Technology stack :** Python, SQL, Docker, Apache Airflow, Great Expectations, Common SQL_\
+_**Docker-Compose :**_ [docker-compose.yaml]()\
+_**DAGs GX script :**_ [gx_data_quality_check.py]()\
+_**DAGs SQL script :**_ [sql_data_quality_check.py]()

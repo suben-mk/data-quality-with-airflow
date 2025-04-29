@@ -1,5 +1,5 @@
 # Data Quality with Airflow
-โปรเจคนี้ผู้เขียนต้องการตรวจสอบคุณภาพของข้อมูล (Data Quality) ด้วยเครื่องมือ Great Expectations และ Common SQL Provider ใน Airflow ซึ่งจะใช้ข้อมูลจาก SQLite database มาทำการตรวจสอบคุณภาพของข้อมูลตามเงื่อนไขที่เรากำหนด จะทำการตรวจสอบคุณภาพของข้อมูลในระดับตาราง (Table Level) และระดับคอลัมน์ (Column Level) ตามรายระเอียดข้างล่าง
+โปรเจคนี้ผู้เขียนต้องการตรวจสอบคุณภาพของข้อมูล (Data Quality) ด้วยเครื่องมือ Great Expectations และ Common SQL Provider ใน Airflow ซึ่งจะใช้ข้อมูลจาก SQLite database มาทำการตรวจสอบคุณภาพของข้อมูลตามเงื่อนไขที่ผูเขียนกำหนด จะทำการตรวจสอบคุณภาพของข้อมูลในระดับตาราง (Table Level) และระดับคอลัมน์ (Column Level) ตามรายระเอียดข้างล่าง
 
 ### Specification
 **source** : audible_data_transformed.csv\

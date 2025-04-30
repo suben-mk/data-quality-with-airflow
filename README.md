@@ -124,7 +124,10 @@ _**DAGs SQL script :**_ [sql_data_quality_check.py]()
      ![sql-2025-04-29_222626](https://github.com/user-attachments/assets/69484119-6a44-46aa-a591-78d66a62099c)
      _ตัวอย่างผล run task succeeded ใน table level_
 
-## Reference
+## In Summary
+
+
+## References
 * ข้อมูลที่ใช้ในโปรเจค Road to Data Engineer 2.0 (2023) จาก [DataTH School](https://school.datath.com/)
 * คุณบีท ปุณณ์สิริ บุณยเกียรติ Special Live หัวข้อเรื่อง [DataTH] Data Quality with Apache Airflow [GitHub](https://github.com/punsiriboo/data-quality-with-apache-airflow)
 * Great Expectations Suite ที่ใช้ตรวจสอบคุณภาพข้อมูล [Explore Expectations](https://greatexpectations.io/expectations/)

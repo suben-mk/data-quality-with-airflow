@@ -95,8 +95,37 @@ _**DAGs SQL script :**_ [sql_data_quality_check.py]()
      ![gx-2025-04-28_113901](https://github.com/user-attachments/assets/08fa761b-379d-47ed-8b7f-c215ce0f965f)
 
    * ตรวจสอบผลการรัน DAGs: GX-DATA-QUALITY-CHECK
-
+     
      ![gx-2025-04-28_114718](https://github.com/user-attachments/assets/d7aac979-839a-407f-bcea-6addc70ba338)
      _data quality check ใน table level_
-
      
+     ![gx-2025-04-28_114957](https://github.com/user-attachments/assets/6e7e3b93-1941-4334-a138-df594e7fb68c)
+     _data quality check ใน column level_
+
+     ![gx-2025-04-28_115205](https://github.com/user-attachments/assets/4141bbd7-a61c-4be9-9aa1-44e137891062)
+     _ตัวอย่างผล expectation failed ใน column level_
+
+     ![gx-2025-04-28_115304](https://github.com/user-attachments/assets/b4fdaf0c-b930-457a-9837-db90576701c5)
+     _ตัวอย่างผล expectation succeeded ใน column level_
+
+4. Common SQL
+   * รัน DAGs: COMMON-SQL-DATA-QUALITY-CHECK
+
+     ![sql-2025-04-29_220751](https://github.com/user-attachments/assets/017be0e1-d9c9-45f0-a0f4-2dc9f893570d)
+
+   * ตรวจสอบผลการรัน DAGs: COMMON-SQL-DATA-QUALITY-CHECK
+
+     ![sql-2025-04-29_221637](https://github.com/user-attachments/assets/a5ad6359-0d39-4a73-80d0-5aa4b74921fd)
+     _data quality check ใน column level ของ task id: SQL_validate_column_level_
+
+     ![sql-2025-04-29_221459](https://github.com/user-attachments/assets/41e99392-8c7a-481b-bb4c-0cb7064a7a3f)
+     _ตัวอย่างผล run task failed ใน column level_
+     
+     ![sql-2025-04-29_222626](https://github.com/user-attachments/assets/69484119-6a44-46aa-a591-78d66a62099c)
+     _ตัวอย่างผล run task succeeded ใน table level_
+
+## Reference
+* ข้อมูลที่ใช้ในโปรเจค Road to Data Engineer 2.0 (2023) จาก [DataTH School](https://school.datath.com/)
+* คุณบีท ปุณณ์สิริ บุณยเกียรติ Special Live หัวข้อเรื่อง [DataTH] Data Quality with Apache Airflow [GitHub](https://github.com/punsiriboo/data-quality-with-apache-airflow)
+* Great Expectations Suite ที่ใช้ตรวจสอบคุณภาพข้อมูล [Explore Expectations](https://greatexpectations.io/expectations/)
+* Common SQL Operator ที่ใช้ตรวจสอบคุณภาพข้อมูล [Common SQL](https://registry.astronomer.io/providers/apache-airflow-providers-common-sql/versions/latest)

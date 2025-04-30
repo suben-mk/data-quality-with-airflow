@@ -21,13 +21,13 @@ THBprice | float | รายได้(เงินบาทไทย) |
 **source** : audible_data_for_analytic.db
 
 **Table Level Check**
-table | expectation | success / fial |
+table | expectation | success / failure |
 ----- | ----------- | -------------- |
 audible_analytic | has column name to be in list | ✅ |
 audible_analytic | has row count between min 1 and max 2000000 | ✅ |
 
 **Column Level Check**
-column	| expectation | success / fial |
+column	| expectation | success / failure |
 ------- | ----------- | -------------- |
 timestamp | has not null values | ✅ |
 user_id | has 8 characters and match in list [a-z0-9] characters| ✅ |

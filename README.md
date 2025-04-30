@@ -68,3 +68,35 @@ _**Technology stack :** Python, SQL, Docker, Apache Airflow, Great Expectations,
 _**Docker-Compose :**_ [docker-compose.yaml]()\
 _**DAGs GX script :**_ [gx_data_quality_check.py]()\
 _**DAGs SQL script :**_ [sql_data_quality_check.py]()
+
+1. Setup environment
+   * Local Airflow บน Docker ซึ่งโครงสร้างโฟล์เดอร์จะตามที่แสดงด้านบน
+   * ติดตั้ง Great Expectations และ Common SQL ใน Dokerfile หรือ requirements.txt
+2. Airflow
+   * รันไฟล์ docker-compose.yaml เพื่อที่จะเข้าไปรัน Data Pipeline บน Local Airflow server
+   * Setup conection SQLite เชื่อมกับไฟล์ database (.db)
+  
+     ![airflow-2025-04-29_222705](https://github.com/user-attachments/assets/cb48c5ac-1ebf-4de7-9036-26e20e928a95)
+     
+3. Great Expectations
+   * ใส่ไฟล์ path สำหรับ set up a GX environment ใน DAGs GX script
+     ```py
+     GX_DATA_CONTEX = "/opt/airflow/include/gx"
+     ```
+   * สร้างไฟล์ Expectation Suite
+     ```bash
+     ├── gx/
+         └── expectations/
+             ├── columns_validation_suite.json
+             └── table_validation_suite.json
+     ```
+   * รัน DAGs: GX-DATA-QUALITY-CHECK
+  
+     ![gx-2025-04-28_113901](https://github.com/user-attachments/assets/08fa761b-379d-47ed-8b7f-c215ce0f965f)
+
+   * ตรวจสอบผลการรัน DAGs: GX-DATA-QUALITY-CHECK
+
+     ![gx-2025-04-28_114718](https://github.com/user-attachments/assets/d7aac979-839a-407f-bcea-6addc70ba338)
+     _data quality check ใน table level_
+
+     

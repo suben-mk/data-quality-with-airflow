@@ -79,7 +79,7 @@ _**DAGs SQL script :**_ [sql_data_quality_check.py]()
      ![airflow-2025-04-29_222705](https://github.com/user-attachments/assets/cb48c5ac-1ebf-4de7-9036-26e20e928a95)
      
 3. Great Expectations
-   * ใส่ไฟล์ path สำหรับ set up a GX environment ใน DAGs GX script
+   * ใส่ไฟล์ path สำหรับ setup a GX environment ใน DAGs GX script
      ```py
      GX_DATA_CONTEX = "/opt/airflow/include/gx"
      ```

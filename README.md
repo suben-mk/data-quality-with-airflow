@@ -52,7 +52,7 @@ data-quality-with-airflow/
 │
 ├── logs/                             # โฟลเดอร์สำหรับเก็บ data logging บน Airflow
 │
-├── include/                          # โฟลเดอร์สำหรับเก็บไฟล์โค้ด python function เพิ่มเติมที่จะรันผ่าน Dags
+├── include/                          # โฟลเดอร์สำหรับเก็บไฟล์ต่างๆ เพิ่มเติมที่จะรันผ่าน DAGs
 │   └── gx/                           # โฟลเดอร์สำหรับไฟล์ต่างๆของ Great Expectations เช่น ไฟล์ expectation suite, ผลลัพธ์ validation เป็นต้น
 │
 ├── plugins/                          # โฟลเดอร์สำหรับ application ต่างๆที่ต้องการรันบน Airflow ผ่าน Dockerfile

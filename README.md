@@ -97,10 +97,10 @@ _**DAGs SQL script :**_ [sql_data_quality_check.py]()
    * ตรวจสอบผลการรัน DAGs: GX-DATA-QUALITY-CHECK
      
      ![gx-2025-04-28_114718](https://github.com/user-attachments/assets/d7aac979-839a-407f-bcea-6addc70ba338)
-     _data quality check ใน table level_
+     _data quality check ใน table level ของ task id: gx_validate_table_level_
      
      ![gx-2025-04-28_114957](https://github.com/user-attachments/assets/6e7e3b93-1941-4334-a138-df594e7fb68c)
-     _data quality check ใน column level_
+     _data quality check ใน column level ของ task id: gx_validate_column_level_
 
      ![gx-2025-04-28_115205](https://github.com/user-attachments/assets/4141bbd7-a61c-4be9-9aa1-44e137891062)
      _ตัวอย่างผล expectation failed ใน column level_

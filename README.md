@@ -48,7 +48,7 @@ data-quality-with-airflow/
 │
 ├── data/                             # โฟลเดอร์สำหรับเก็บไฟล์ข้อมูลที่ใช้สำหรับโปรเจค และผลลัพธ์จากการทำโปรเจค
 │   ├── audible_data_transformed.csv  # Source data to transform for analytic data
-│   └── audible_data_for_analytic.db  # Data to chack for data quality
+│   └── audible_data_for_analytic.db  # Data to check for data quality
 │
 ├── logs/                             # โฟลเดอร์สำหรับเก็บ data logging บน Airflow
 │

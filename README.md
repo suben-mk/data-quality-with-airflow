@@ -83,7 +83,7 @@ _**DAGs SQL script :**_ [sql_data_quality_check.py]()
      ```py
      GX_DATA_CONTEX = "/opt/airflow/include/gx"
      ```
-   * สร้างไฟล์ Expectation Suite
+   * สร้างไฟล์ Expectation Suite และกำหนด Expectation ที่จะตรวจสอบคุณภาพข้อมูล
      ```bash
      ├── gx/
          └── expectations/

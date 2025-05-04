@@ -2,7 +2,7 @@
 โปรเจคนี้ผู้เขียนต้องการโฟกัสในเรื่องการตรวจสอบคุณภาพของข้อมูล (Data Quality) ด้วยเครื่องมือ Great Expectations และ Common SQL Provider ใน Airflow ซึ่งจะใช้ข้อมูลจาก SQLite database มาทำการตรวจสอบคุณภาพของข้อมูลตามเงื่อนไขที่ผู้เขียนกำหนด จะทำการตรวจสอบคุณภาพของข้อมูลทั้งในระดับตาราง (Table Level) และระดับคอลัมน์ (Column Level)
 
 ## Project Overview
-**ใส่รูป**
+![DQA Diagram](https://github.com/user-attachments/assets/a3a5925e-2f62-44e2-bf4f-2376a54ce077)
 
 ## Specification
 **source** : audible_data_transformed.csv\

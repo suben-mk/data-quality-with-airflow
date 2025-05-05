@@ -65,9 +65,9 @@ data-quality-with-airflow/
 
 ## Workflow
 _**Technology stack :** Python, SQL, Docker, Apache Airflow, Great Expectations, Common SQL_\
-_**Docker-Compose :**_ [docker-compose.yaml]()\
-_**DAGs GX script :**_ [gx_data_quality_check.py]()\
-_**DAGs SQL script :**_ [sql_data_quality_check.py]()
+_**Docker-Compose :**_ [docker-compose.yaml](https://github.com/suben-mk/data-quality-with-airflow/blob/main/docker-compose.yaml)\
+_**DAGs GX script :**_ [gx_data_quality_check.py](https://github.com/suben-mk/data-quality-with-airflow/blob/main/dags/gx_data_quality_check.py)\
+_**DAGs SQL script :**_ [sql_data_quality_check.py](https://github.com/suben-mk/data-quality-with-airflow/blob/main/dags/sql_data_quality_check.py)
 
 1. Setup environment
    * Local Airflow บน Docker ซึ่งโครงสร้างโฟล์เดอร์จะตามที่แสดงด้านบน

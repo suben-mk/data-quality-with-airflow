@@ -1,0 +1,33 @@
+{
+    "data_asset_type": null,
+    "expectation_suite_name": "table_validation_suite",
+    "expectations": [
+        {
+            "expectation_type": "expect_table_columns_to_match_set",
+            "kwargs": {
+                "column_set": [
+                    "timestamp",
+                    "user_id",
+                    "country",
+                    "book_id",
+                    "book_title",
+                    "categories",
+                    "THBprice"
+                ]
+            },
+            "meta": {}
+        },
+        {
+            "expectation_type": "expect_table_row_count_to_be_between",
+            "kwargs": {
+                "max_value": 2000000,
+                "min_value": 1
+              },
+            "meta": {}
+        }
+    ],
+    "ge_cloud_id": null,
+    "meta": {
+        "great_expectations_version": "0.15.34"
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "data_asset_type": null,
+    "expectation_suite_name": "columns_validation_suite",
+    "expectations": [
+        {
+          "expectation_type": "expect_column_values_to_not_be_null",
+          "kwargs": {
+              "column": "timestamp"
+            },
+          "meta": {}
+        },    
+        {
+            "expectation_type": "expect_column_values_to_match_regex",
+            "kwargs": {
+                "column": "user_id",
+                "regex": "^[a-z0-9]{8}$"
+              },
+            "meta": {}
+        },
+        {
+            "expectation_type": "expect_column_values_to_not_be_null",
+            "kwargs": {
+                "column": "country"
+              },
+            "meta": {}
+        },        
+        {
+            "expectation_type": "expect_column_values_to_be_of_type",
+            "kwargs": {
+                "column": "book_id",
+                "type_": "INTEGER"
+              },
+            "meta": {}
+        },
+        {
+            "expectation_type": "expect_column_values_to_not_be_null",
+            "kwargs": {
+                "column": "book_title"
+              },
+            "meta": {}
+        },
+        {
+            "expectation_type": "expect_column_distinct_values_to_be_in_set",
+            "kwargs": {
+                "column": "categories",
+                "value_set": [
+                  "Business & Careers",
+                  "Literature & Fiction",
+                  "Education & Learning",
+                  "Teen",
+                  "Mystery, Thriller & Suspense",
+                  "Children's Audiobooks",
+                  "History",
+                  "Relationships, Parenting & Personal Development",
+                  "Biographies & Memoirs",
+                  "Science Fiction & Fantasy",
+                  "Arts & Entertainment",
+                  "Health & Wellness",
+                  "Religion & Spirituality",
+                  "Erotica",
+                  "Science & Engineering",
+                  "Home & Garden",
+                  "Money & Finance",
+                  "Romance",
+                  "Computers & Technology",
+                  "Politics & Social Sciences",
+                  "Sports & Outdoors",
+                  "LGBTQ+",
+                  "Travel & Tourism"
+                ]
+              },
+            "meta": {}
+        },
+        {
+          "expectation_type": "expect_column_values_to_not_be_null",
+          "kwargs": {
+              "column": "categories"
+            },
+          "meta": {}
+        },
+        {
+            "expectation_type": "expect_column_values_to_be_between",
+            "kwargs": {
+                "column": "THBprice",
+                "max_value": 3000.0,
+                "min_value": 20.0
+              },
+            "meta": {}
+        }
+    ],
+    "ge_cloud_id": null,
+    "meta": {
+        "great_expectations_version": "0.15.34"
+    }
+}
